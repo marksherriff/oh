@@ -1,0 +1,57 @@
+body {
+	padding-top: 3.5%; /* 60px to make the container go all the way to the bottom of the topbar */
+	text-align: center;
+	float: left;
+	min-width: 100%;
+}
+
+body header {
+	padding-bottom: 2.5%;
+	text-align: center;
+}
+
+body#empty_table {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+}
+
+body input[type=text] {
+	width: 200px; 
+	height: 40px;
+}
+
+section {
+	text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+}
+
+#student_info table{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer {
+	display: block;
+	clear: both;
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+    height: 80px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+input {
+	text-align: center;
+}
+
+a#view_cal {
+	color: lightgray;
+}
+
+a#view_cal:hover {
+	color: white;
+}
