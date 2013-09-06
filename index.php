@@ -83,7 +83,7 @@
 					<a style="color: white" class="brand" href="#">Office Hours</a>
 					
 					<ul class="nav pull-right">
-						<li><a id="view_cal" class="brand" href="https://www.google.com/calendar/embed?src=uvacs1110%40gmail.com&ctz=America/New_York">View Calendar</a></li>
+						<li><a id="view_cal" class="brand" href="https://www.google.com/calendar/embed?mode=week&src=uvacs1110%40gmail.com&ctz=America/New_York">View Calendar</a></li>
 						<li>	
 							<button class="btn">
 								<strong><?php echo $user_role . ' : ' . $user_fname .' '. $user_lname; ?></strong>
