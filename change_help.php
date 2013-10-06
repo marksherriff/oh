@@ -1,6 +1,10 @@
 <?php
-  $user_comp_id = $_SERVER['PHP_AUTH_USER'];
-  //$user_comp_id = 'hwc2d';
+
+  // include this at the top of every file to handle global variables
+  // and user log in
+  // this will set $user_util class based on local vs production environment
+  require_once('utility_functions.php');
+  $user_comp_id = $user_util->getCompId();
   
   $help = strip_tags($_GET['help']);
   require_once('dbconnect.php');

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <?php
-	$user_id = $_SERVER['PHP_AUTH_USER']; //get netbadge 
-	//$user_id = 'hwc2d';
+	// include this at the top of every file to handle global variables
+	  // and user log in
+	  // this will set $user_util class based on local vs production environment
+	  require_once('utility_functions.php');
+	  $user_id = $user_util->getCompId();
 
 	//set up database connection
 	require_once("dbconnect.php");

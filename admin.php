@@ -1,5 +1,8 @@
 	<?php
-	$user_id = $_SERVER['PHP_AUTH_USER']; //get netbadge 
+	require_once('utility_functions.php');
+	// need special function to handle local vs production environment
+	$user_id = $user_util->getCompId();
+	 
 	//$user_id = 'hwc2d';
 
 	//set up database connection
